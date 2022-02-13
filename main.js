@@ -36,7 +36,7 @@ signOutButton.addEventListener('click', (e) => {
 
   signOut(auth)
     .then(() => {
-      window.location='login.html'
+      window.location='doctor_login.html'
     })
     .catch((error) => {
       console.log(error);
