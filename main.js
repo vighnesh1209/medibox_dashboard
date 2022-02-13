@@ -12,12 +12,13 @@ import {
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: 'AIzaSyBOz0OAB-X_-WS56CKrGE678DfmkmAdv5U',
-  authenticationDomain: 'medibox-bcf65.firebaseapp.com',
-  projectId: 'medibox-bcf65',
-  storageBucket: 'medibox-bcf65.appspot.com',
-  messagingSenderId: '887339504905',
-  appId: '1:887339504905:web:ce2af2c6afc45028db2fd8',
+  apiKey: "AIzaSyBkuk_Xqs-YLtdXvvdrfTdb_6oHOfcBUYM",
+  authDomain: "patient-fa6b4.firebaseapp.com",
+  projectId: "patient-fa6b4",
+  storageBucket: "patient-fa6b4.appspot.com",
+  messagingSenderId: "841970295158",
+  appId: "1:841970295158:web:ba4215163b19529e0fda57",
+  measurementId: "G-M44EB1359E"
 };
 
 // Initialize Firebase
