@@ -54,13 +54,6 @@ signUpButton.addEventListener("click", (e) => {
 });
 
 
-
-
-
-
-
-
-
 let signInButton = document.getElementById('signin')
   signInButton.addEventListener("click", (e) => {
     //Prevent Default Form Submission Behavior
@@ -76,7 +69,7 @@ let signInButton = document.getElementById('signin')
       // Signed in 
       var user = userCredential.user;
       console.log("user",user.email)
-      window.location = "index.html";
+      window.location = "doctor.html";
     })
     .catch((error) => {
       var errorCode = error.code;
